@@ -9,8 +9,17 @@ begin
   var nr, c, max, suma, i: integer;
   var s: string;
   
-  writeln('Introduceti un numar natural cu maxim 9 cifre:');
-  readln(nr);
+  writeln('Introduceti un numar natural cu maxim 9 cifre:');  
+  
+  try
+    readln(nr);
+  except
+    on Exception do
+    begin
+      writeln('Introduceti un numar natural!');
+      exit;
+    end;
+  end;
   
   // Convertim numarul in String (sir de caractere)
   s := IntToStr(nr);
