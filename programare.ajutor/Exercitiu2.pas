@@ -1,6 +1,6 @@
 // Sa se scrie un pogram care va calcula pentru fiecare coloana a unei matrici
 // de elemente intregi suma elementelor  si numarul maxim
-// de pe fiecare linie. Matricea se va citi dintr-un fisier text,
+// de pe fiecare linie si coloana. Matricea se va citi dintr-un fisier text,
 // care va avea urmatoarea structura:
 // Pe prima linie a fisierului se va gasi numarul de linii si coloane, apoi insasi matricea.
 // Exemplu ( 2 linii si 3 coloane ):
