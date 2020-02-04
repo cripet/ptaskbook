@@ -1,5 +1,5 @@
-// Sa se scrie un pogram care va calcula pentru fiecare coloana a unei matrici
-// de elemente intregi suma elementelor  si numarul maxim
+// Sa se scrie un pogram care va calcula pentru o matrice
+// de elemente intregi, suma elementelor  si numarul maxim
 // de pe fiecare linie si coloana. Matricea se va citi dintr-un fisier text,
 // care va avea urmatoarea structura:
 // Pe prima linie a fisierului se va gasi numarul de linii si coloane, apoi insasi matricea.
@@ -74,6 +74,7 @@ void printeaza_matrice(int** m)
 int suma_elemente(int** m)
 {
     int i, j, s;
+    s = 0;
     for (i = 0; i < linii; i++)
         for (j = 0; j < coloane; j++)
             s = s + m[i][j];
