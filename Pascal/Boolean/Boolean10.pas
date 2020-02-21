@@ -11,11 +11,3 @@ begin
   writeln('Exact unul dintre ele este impar => ', (a mod 2 = 1) and (b mod 2 = 0) or (a mod 2= 0) and (b mod 2= 1));
   
 end.
-
-(a mod 2 = 1) and (b mod 2 = 0) or (a mod 2= 0) and (b mod 2= 1)
-(4 mod 2 = 1) and (5 mod 2 = 0) or (4 mod 2= 0) and (5 mod 2= 1)
-     false    and     false     or     true     and      true
-     false     x      false     +      true      x       true
-              false             +             true
-                               true
-              
