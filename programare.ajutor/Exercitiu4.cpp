@@ -1,3 +1,5 @@
+//Se citesc 2 fracții. Să se împartă prima fracțile la a doua. Răspunsul să se simplifice.
+
 #include <iostream>
 using namespace std;
 
